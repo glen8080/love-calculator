@@ -1,0 +1,216 @@
+
+@font-face {
+   font-family: "bonus";
+   src: url("./beautyFont/FontsFree-Net-BonusHearts.ttf");
+}
+@font-face {
+   font-family: "flix";
+   src: url("./beautyFont/FontsFree-Net-Filxgirl-1.ttf");
+}
+@font-face {
+   font-family: "lovely";
+   src: url("./beautyFont/FontsFree-Net-LovelyBalloon.ttf");
+}
+@font-face {
+   font-family: "lover";
+   src: url("./beautyFont/FontsFree-Net-Lover.ttf");
+}
+@font-face {
+   font-family: "romantically";
+   src: url("./beautyFont/FontsFree-Net-Romantically-Yours.ttf");
+}
+@font-face {
+   font-family: "romance";
+   src: url("./beautyFont/FontsFree-Net-The-Romantic.ttf");
+}
+@font-face {
+   font-family: "jully";
+   src: url("./beautyFont/jully-julia.ttf");
+}
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "jully";
+   font-weight: 600;
+   
+   
+
+}
+h1{
+   color: pink;
+   
+}
+.love{
+   color: pink;
+   font-size: 60px;
+   font-family: 'lover';
+   text-align: center;
+}
+.lovely{
+   font-family: "bonus";
+   font-size: 50px;
+   color: #f62681;
+}
+.center{
+   font-family: "bonus";
+   color: red;
+   font-size: 60px;
+}
+.container{
+   margin: 0 auto;
+   background-color: #f62681;
+   height: 100vh;
+   width:100%;
+   display: grid;
+   place-items: center;
+  background-image: url(/public/images/black\ love.png);
+   
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+.form{
+   border: 1px solid  pink;
+   padding: 5px;
+   border-radius: 10px;
+}
+.formContainer{
+   background-color:white;
+   height: 350px;
+   width: 350px;
+   display: grid;
+   place-items: center;
+   border-radius: 10px;
+ 
+
+}
+form{
+   
+   display: grid;
+   place-items: center;
+   padding: 20px;
+   
+   
+}
+input{
+   margin-bottom: 5px;
+   padding: 10px 40px;
+   background-color: #f62681;
+   border: 1px solid #f62681;
+   border-radius: 5px;
+   color: white;
+
+   
+}
+.button{
+   padding: 6px 50px;
+   margin-top: 5px;
+   display: flex;
+   border-radius: 5px;
+   border: 1px solid #f62681;
+   background-color: white;
+   color: #f62681;
+   
+    
+   
+}
+.button:hover{
+   color: white;
+   background-color: #f62681;
+}
+img{
+   height: 15px;
+}
+.logo{
+   height: 1000px;
+   
+}
+.modal_container{
+   background-color: #f62681;
+   height: 100vh;
+   width: 100%;
+   display: grid;
+   place-items: center;
+   margin: 0 auto;
+}
+.form_container{
+   height: 400px;
+   width: 600px;
+   background-color: aliceblue;
+   border-radius: 10px;
+  display: grid;
+  grid-template-rows: 10% 70% 20%;
+   padding: 10px;
+
+}
+.upper{
+   display: flex;
+   
+   width: 100%;
+   padding: 2px;
+}
+.middle{
+   
+   display: grid;
+   place-items: center;
+   width: 100%;
+}
+
+.lower{
+   
+   
+   width: 100%;
+   display: grid;
+   place-items: center;
+}
+.close{
+   background-color: #f62681;
+   flex: 10%;
+   border-radius: 5px;
+   
+ 
+}
+.close:hover{
+   background-color: white;
+   color: #f62681;
+}
+.empty{
+   flex: 90%;
+}
+.answer{
+   font-family: "jully";
+   color: #f62681;
+   text-align: center;
+   
+   
+}
+.percentage{
+   font-size: 150px;
+   display: grid;
+   place-items: center;
+   text-align: center;
+   font-family: "lover";
+   color: #f62681;
+}
+.small{
+   color: red;
+   font-size: 10px;
+   font-family: sans-serif;
+   margin-bottom: 5px;
+}
+@media (max-width:600px) {
+   .form_container{
+      width: 400px;
+   }
+   .percentage{
+      font-size: 120px;
+   }
+}
+@media (max-width:400px) {
+   .form_container{
+      width: 300px;
+   }
+   .percentage{
+      font-size: 100px;
+   }
+}
